@@ -1,0 +1,10 @@
+encryption = "age"
+[age]
+    identity = "~/.config/chezmoi/key.txt"
+    recipient = "age1z309hc06776v46zlvm4skqs833lnaprhqpqxapxuykmnflxz0q2s70av5f"
+
+[git]
+    autoAdd = true
+    autoCommit = true
+    autoPush = true
+    commitMessageTemplate = "Update dotfiles on {{ .chezmoi.hostname }}"
